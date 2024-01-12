@@ -1,12 +1,17 @@
-const helloRoute = (req, res) => {
-    res.send('hello!');
+const jaredRoute = (req, res) => {
+    res.send('Jared Martinez');
 };
 
-const byeRoute = (req, res) => {
-    res.send('bye!');
+const rubenRoute = (req, res) => {
+    res.send('Ruben Martinez');
+};
+
+const pedroRoute = (req, res) => {
+    res.send('Pedro Martinez');
 };
 
 module.exports = {
-    helloRoute,
-    byeRoute,
-};
+    jaredRoute,
+    rubenRoute,
+    pedroRoute
+}
